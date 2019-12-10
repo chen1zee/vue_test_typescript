@@ -5,6 +5,19 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+
+const a = Vue.extend({
+  components: {
+    App,
+  },
+  methods: {
+    say() {
+      console.log(this.$bbb)
+      console.log(this.$sjodijsidjsiodajios)
+    }
+  }
+})
+
 new Vue({
   router,
   store,
